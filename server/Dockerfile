@@ -1,8 +1,8 @@
 FROM golang:alpine
 
-RUN mkdir /test
+RUN mkdir /server
 
-WORKDIR /test
+WORKDIR /server
 
 COPY . .
 

@@ -2,8 +2,8 @@ version: "3.8"
 
 services:
   main:
-    build: ./test
-    container_name: "test"
+    build: ./server
+    container_name: "server"
     ports:
       - "8001:8001"
     expose:
